@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@reg-angular/auth": ["auth/src/index.ts"]
+      "@reg-angular/auth": ["auth/src/index.ts"],
+      "@reg-angular/deathreg": ["deathreg/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
