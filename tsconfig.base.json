@@ -17,7 +17,8 @@
     "paths": {
       "@reg-angular/auth": ["auth/src/index.ts"],
       "@reg-angular/birthreg": ["birthreg/src/index.ts"],
-      "@reg-angular/deathreg": ["deathreg/src/index.ts"]
+      "@reg-angular/deathreg": ["deathreg/src/index.ts"],
+      "@reg-angular/shared": ["shared/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
