@@ -1,1 +1,1 @@
-export * from './lib/deathreg/deathreg.component';
+export * from './lib/deathreg.module';
