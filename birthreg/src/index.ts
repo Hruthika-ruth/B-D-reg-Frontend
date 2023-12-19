@@ -1,1 +1,1 @@
-export * from './lib/birthreg/birthreg.component';
+export * from './lib/birthreg.module';
