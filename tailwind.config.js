@@ -7,7 +7,7 @@ module.exports = {
     extend:
     {
       fontFamily: {
-        'Overpass': ['sans-serif']
+        'overpass': ['sans-serif']
       },
     },
   },
