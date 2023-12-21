@@ -1,15 +1,16 @@
+import { createGlobPatternsForDependencies } from '@nx/angular/tailwind';
+import { join } from 'path';
+
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./src/**/*.{html,ts}",
-  ],
-  theme: {
-    extend:
-    {
-      fontFamily: {
-        'overpass': ['sans-serif']
-      },
+export const content = [
+  join(__dirname, 'src/**/!(*.stories|*.spec).{ts,html}'),
+  ...createGlobPatternsForDependencies(__dirname),
+];
+export const theme= {
+  extend:
+  {
+    fontFamily: {
+      'overpass': ['sans-serif']
     },
   },
-  plugins: [],
 }
