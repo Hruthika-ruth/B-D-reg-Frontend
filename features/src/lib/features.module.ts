@@ -1,20 +1,9 @@
 import { NgModule } from '@angular/core';
-import { Route, RouterModule } from '@angular/router';
-import { FooterComponent } from './components/footer/footer.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
+import { RouterModule } from '@angular/router';
+import { FeaturesRoutes } from './features.routes';
 
-const FEATURES_MODULE: Route[] = [
-  {
-    path: 'navbar',
-    component: NavbarComponent,
-  },
-  {
-    path: 'footer',
-    component: FooterComponent,
-  },
-];
 @NgModule({
-  imports: [RouterModule.forChild(FEATURES_MODULE)],
+  imports: [FeaturesRoutes],
   exports: [RouterModule],
 })
 export class FeaturesModule {}
