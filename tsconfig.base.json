@@ -19,7 +19,8 @@
       "@reg-angular/birthreg": ["birthreg/src/index.ts"],
       "@reg-angular/deathreg": ["deathreg/src/index.ts"],
       "@reg-angular/features": ["features/src/index.ts"],
-      "@reg-angular/shared": ["shared/src/index.ts"]
+      "@reg-angular/shared": ["shared/src/index.ts"],
+      "@material":["material/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
