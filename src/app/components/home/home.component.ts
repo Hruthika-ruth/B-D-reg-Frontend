@@ -6,18 +6,25 @@ import {
   FormControl,
   Validators,
 } from '@angular/forms';
+import { NavbarComponent } from 'features/src/lib/components/navbar/navbar.component';
+import { FooterComponent } from 'features/src/lib/components/footer/footer.component';
 
 @Component({
   selector: 'reg-angular-home',
   standalone: true,
-  imports: [CommonModule, ReactiveFormsModule],
+  imports: [
+    CommonModule,
+    ReactiveFormsModule,
+    NavbarComponent,
+    FooterComponent,
+  ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
 export class HomeComponent {
   title = 'reg-angular';
   applyForm = new FormGroup({
-    fullName: new FormControl('', Validators.required),
+    fullname: new FormControl('', Validators.required),
     email: new FormControl('', Validators.required),
     Address: new FormControl(''),
     message: new FormControl(''),

@@ -10,7 +10,8 @@ export const theme= {
   extend:
   {
     fontFamily: {
-      'overpass': ['sans-serif']
+      'overpass': ['sans-serif'],
+      'milonga': ['serif']
     },
   },
 }
